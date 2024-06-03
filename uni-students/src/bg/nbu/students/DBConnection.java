@@ -10,8 +10,8 @@ public class DBConnection {
             //зареждаме driver класа
             Class.forName("com.mysql.cj.jdbc.Driver");
             //URL връзка
-            String url = "jdbc:mysql://localhost:3306/studentdb";
-            String username = "root";
+            String url = "jdbc:mysql://localhost:3306/*******";
+            String username = "*****";
             String password = "*********";
             connect = DriverManager.getConnection(url, username, password);
         } catch(Exception ex) {
